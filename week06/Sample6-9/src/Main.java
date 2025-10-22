@@ -20,7 +20,7 @@ public class Main {
         System.out.print("하루에 평균 몇 개피를 피웠나요?");
         ga = keyboard.nextFloat();
 
-        minute =  life * 365 * ga * CIGA;      //
+        minute =  life * 365 * ga * CIGA;
         year = (float) minute / 60 / 24 / 365;
         day = (float) (minute / 60 / 24) % 365;
         hour = (float) (minute / 60) % 24;
